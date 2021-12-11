@@ -1,0 +1,1 @@
+flagCanDamage = false;

@@ -1,0 +1,1 @@
+flagClericStop = true;
