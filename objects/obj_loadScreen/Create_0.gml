@@ -27,8 +27,11 @@ tips[13] = "Tip: DROID enemies don't have any special characteristcs. Just dodge
 tips[14] = "Tip: BUG enemies deal a lot of damage with their charge attack and move through cover."
 tips[15] = "Tip: MORTAR enemies fire their shots over cover."
 tips[16] = "Tip: Hold TAB to REVEAL the location of the EXIT."
-tips[17] = "GOLIATH enemies are tough but one BOMB can take care of them."
-tips[18] = "You can shoot a MORTAR's bomb back at it. It'll start following you again shortly after."
+tips[17] = "Tip: GOLIATH enemies are tough but one BOMB can take care of them."
+tips[18] = "Tip: You can shoot a MORTAR's bomb back at it. It'll start following you again shortly after."
+tips[19] = "Tip: Stuck? Press ENTER to reset to the last checkpoint."
+tips[20] = "Tip: Shooting a CLERIC's shielded ally is a BAD IDEA."
+tips[21] = "Tip: Shooting too quickly will cause your gun to OVERHEAT."
 
 
 if room = buffer1
