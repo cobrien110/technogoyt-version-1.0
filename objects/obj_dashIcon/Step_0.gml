@@ -5,3 +5,4 @@ x = xC + xDifference;
 y = yC + yDifference;
 
 myCounter = myCounter + 1;
+myCounterMax = obj_goyt.dashCooldown;

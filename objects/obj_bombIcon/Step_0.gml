@@ -5,6 +5,7 @@ x = xC + xDifference;
 y = yC + yDifference;
 
 myCounter = obj_goyt.timeToBomb;
+myCounterMax = obj_goyt.bombCooldown;
 
 if myCounter >= myCounterMax/3
 {
