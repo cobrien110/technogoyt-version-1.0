@@ -17,6 +17,7 @@ if flagDash != true
 		camera_set_view_target(view_camera[0], noone);
 		x = 0;
 		y = 0;
+		image_alpha = 0;
 		flagDead = true;
 		alarm[5] = 240;
 	}
