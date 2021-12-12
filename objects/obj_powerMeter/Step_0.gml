@@ -34,8 +34,16 @@ if global.myLevel = 3
 {
 	obj_goyt.sprite_index = spr_goytV3;
 }
-//
-if global.myLevel >4
+if global.myLevel = 4
 {
-	obj_goyt.sprite_index = spr_goytV3;
+	obj_goyt.sprite_index = spr_goytV4;
+}
+if global.myLevel = 5
+{
+	obj_goyt.sprite_index = spr_goytV5;
+}
+//
+if global.myLevel > 5
+{
+	global.myLevel = 5;
 }
