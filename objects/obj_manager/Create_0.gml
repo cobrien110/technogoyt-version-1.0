@@ -1,3 +1,5 @@
+window_set_fullscreen(true);
+
 global.healthMax = 4;
 global.moveSpeed = 3;
 global.heatMax = 6;
@@ -18,3 +20,4 @@ global.myLevel = 1;
 
 window_set_cursor(cr_none);
 cursor_sprite = spr_cursorMenu;
+
