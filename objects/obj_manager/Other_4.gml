@@ -18,5 +18,3 @@ global.accuracy = 10;
 
 global.powerCollected = 0;
 global.myLevel = 1;
-
-randomize();

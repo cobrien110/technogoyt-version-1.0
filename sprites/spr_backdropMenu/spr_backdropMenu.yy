@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"4a78a089-b69a-4e05-9954-e1396c17ae2f","path":"sprites/spr_backdrop/spr_backdrop.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4a78a089-b69a-4e05-9954-e1396c17ae2f","path":"sprites/spr_backdrop/spr_backdrop.yy",},"LayerId":{"name":"69888064-1c2a-41cb-95e1-3b682cff3813","path":"sprites/spr_backdrop/spr_backdrop.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_backdrop","path":"sprites/spr_backdrop/spr_backdrop.yy",},"resourceVersion":"1.0","name":"4a78a089-b69a-4e05-9954-e1396c17ae2f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"00b0bf93-c01b-49ac-8a2c-5d8707486d92","path":"sprites/spr_backdropMenu/spr_backdropMenu.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"00b0bf93-c01b-49ac-8a2c-5d8707486d92","path":"sprites/spr_backdropMenu/spr_backdropMenu.yy",},"LayerId":{"name":"6e1c4280-6504-46a1-a8a5-5b5382cc855a","path":"sprites/spr_backdropMenu/spr_backdropMenu.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_backdropMenu","path":"sprites/spr_backdropMenu/spr_backdropMenu.yy",},"resourceVersion":"1.0","name":"00b0bf93-c01b-49ac-8a2c-5d8707486d92","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_backdrop","path":"sprites/spr_backdrop/spr_backdrop.yy",},
+    "spriteId": {"name":"spr_backdropMenu","path":"sprites/spr_backdropMenu/spr_backdropMenu.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"f00b7323-c052-45c0-a22c-a62936f7a105","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4a78a089-b69a-4e05-9954-e1396c17ae2f","path":"sprites/spr_backdrop/spr_backdrop.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ac234f52-49bb-4f99-9bee-cea1b5ad2e3e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"00b0bf93-c01b-49ac-8a2c-5d8707486d92","path":"sprites/spr_backdropMenu/spr_backdropMenu.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_backdrop","path":"sprites/spr_backdrop/spr_backdrop.yy",},
+    "parent": {"name":"spr_backdropMenu","path":"sprites/spr_backdropMenu/spr_backdropMenu.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_backdrop",
+    "name": "spr_backdropMenu",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"69888064-1c2a-41cb-95e1-3b682cff3813","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6e1c4280-6504-46a1-a8a5-5b5382cc855a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_backdrop",
+  "name": "spr_backdropMenu",
   "tags": [],
   "resourceType": "GMSprite",
 }

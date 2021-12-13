@@ -4,22 +4,22 @@ draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 
 draw_set_color(c_white);
-draw_text_transformed(480,200,"Loading...",4,4,0);
+draw_text_transformed(x+480,y+200,"Loading...",4,4,0);
 
 draw_set_color(c_dkgray);
-draw_rectangle(100,340,860,440,false);
+draw_rectangle(x+100,y+340,x+860,y+440,false);
 
 draw_set_color(c_white);
-draw_rectangle(100,340,860,440,true);
+draw_rectangle(x+100,y+340,x+860,y+440,true);
 
 draw_set_color(c_white);
-draw_rectangle(100,340,100+myL,440,false);
+draw_rectangle(x+100,y+340,x+100+myL,y+440,false);
 
 draw_set_color(c_red);
-draw_text_ext_transformed(480,580,myLevel,64,300,2.5,2.5,0);
+draw_text_ext_transformed(x+480,y+580,myLevel,32,300,2.5,2.5,0);
 
 draw_set_color(c_white);
-draw_text_ext_transformed(480,760,"Congratulations on getting this far! There are currently no more levels. Press CONTROL to return to the main menu.",24,400,2,2,0);
+draw_text_ext_transformed(x+480,y+760,"Congratulations on getting this far! There are currently no more levels. Press CONTROL to return to the main menu.",24,400,2,2,0);
 
 /*
 draw_set_color(c_dkgray);
@@ -29,15 +29,15 @@ draw_text_transformed(480,400,"G.O.Y.T.",5,3.5,0);
 if flag0 = false
 {
 	draw_set_color(c_black);
-	draw_rectangle(620,200,650,250,false);
+	draw_rectangle(x+620,y+200,x+650,y+250,false);
 }
 if flag1 = false
 {
 	draw_set_color(c_black);
-	draw_rectangle(660,200,720,250,false);
+	draw_rectangle(x+660,y+200,x+720,y+250,false);
 }
 if flag2 = false
 {
 	draw_set_color(c_black);
-	draw_rectangle(740,200,800,250,false);
+	draw_rectangle(x+740,y+200,x+800,y+250,false);
 }

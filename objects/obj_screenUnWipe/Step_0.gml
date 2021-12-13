@@ -1,4 +1,4 @@
-myR = myR* 0.75;
+myR = myR* 0.8;
 
 if myR < 1
 {
